@@ -1,0 +1,25 @@
+.main-container {
+  padding: 50px;
+}
+
+.split-container {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.image-container {
+  flex: 1;
+  margin-right: 10px; /* Add spacing between image and empty box */
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.empty-box {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
